@@ -19,7 +19,8 @@ CASE
   WHEN [column1_name] = 1 THEN 0
   WHEN [column1_name] = 2 THEN 0
   ELSE 1
-END AS [new_column]
+END AS [new_column_name]
 FROM [table1_name]
 JOIN [table2_name] on [table1_name].[colunn_name] = [table2_name].[colunn_name]
 WHERE [Condition];
+
