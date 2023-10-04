@@ -1,2 +1,4 @@
-# Query Latest Transaction Record by customer 
+# Query the Latest Transaction Record by the customer 
 Select [customerID], [TransactionRecord] from (Select [customerID], [TransactionRecord] from [TransactionTable] order by [Time] asc)a group by [customerID];
+
+# 
